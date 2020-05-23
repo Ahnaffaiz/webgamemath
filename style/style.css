@@ -1,0 +1,40 @@
+body {
+    background-image: url("../img/bg.svg");
+    height: 768px;
+}
+.btn {
+    border-radius: 38px
+}
+.btn:hover {
+    background-color: #351D76;
+    border: #351D76;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-primary{
+    background-color:#4D378B;
+    border: 2px solid #4D378B;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.form-control {
+    border-radius: 38px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h3,h4 {
+    font-family: 'Chelsea Market', cursive;
+    color: aliceblue;
+}
+
+h5,p {
+    color: aliceblue;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
